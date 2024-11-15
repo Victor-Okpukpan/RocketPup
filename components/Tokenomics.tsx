@@ -74,7 +74,7 @@ export default function Tokenomics() {
                 dataKey="value"
               >
                 {tokenomicsData.map((entry, index) => (
-                  <Cell key={`cell-${index}`} fill={entry.color} />
+                  <Cell key={`cell-${index}`} fill={entry.color} className="outline-none" />
                 ))}
               </Pie>
               <Tooltip
